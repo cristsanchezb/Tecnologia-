@@ -1,0 +1,82 @@
+body {
+    background: #3f5b8b;
+}
+
+
+/* colores y propiedades (franja negra)*/
+
+header {
+    width: 100%;
+}
+
+.arriba {
+    width: 1000px;
+    margin: 30px auto;
+    background: #000000;
+}
+
+
+/* home etc*/
+
+.arriba ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #cf1c1c;
+    transition: all .3s;
+}
+
+
+/* desplegable*/
+
+.desplegable {
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.desplegable li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover .desplegable {
+    visibility: visible;
+    opacity: 1;
+}
+
+.proces {
+    text-align: center;
+    display: table;
+    width: 650px;
+    margin: 2rem auto;
+}
+
+.i3 {
+    height: 400px;
+    margin-top: 0px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.proces {
+    background-color: #ffffff;
+}
